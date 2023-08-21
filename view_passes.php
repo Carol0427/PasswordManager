@@ -8,7 +8,9 @@
     <div class="topnav">
         <a href='main.php'>Home</a>
     </div>
-    
+    <?php
+        echo 'hello';
+    ?>
     <h1>View your passwords</h1>
       
         <?php
