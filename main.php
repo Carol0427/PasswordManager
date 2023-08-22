@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <link rel='stylesheet' href='styling.css'>
         <?php
             //include 'connect.php';
 
