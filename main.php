@@ -2,7 +2,13 @@
 <html>
     <head>
         <?php
-            include 'connect.php';
+            //include 'connect.php';
+
+            echo $_SESSION['new_pass_created'];
+            if ($_SESSION['new_pass_created'] == true){
+                echo '<script>alert("new password stored!")</script>';
+                $_SESSION['new_pass_created'] = false;
+            }
         ?>
     </head>
 <body>
